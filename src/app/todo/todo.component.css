@@ -1,0 +1,29 @@
+.card-body {
+    width: 18rem;
+    
+  }
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  .btn-danger {
+    background-color: #dc3545;
+    color: white;
+  }
+  .container {
+    margin-top: 4rem;
+  }
+  .form-group {
+    margin-top: 1rem;
+  }
+  .list-group {
+    margin-top: 3rem;
+  }
+
+
+         
+  
+  
+  
+  
+  

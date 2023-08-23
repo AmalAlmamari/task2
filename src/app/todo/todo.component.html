@@ -1,0 +1,17 @@
+
+<div class="card-body text-center" style="width: 18rem;">
+        <div class="container mt-4">
+          <h2>To-Do List</h2>
+          <div class="form-group">
+            <input [(ngModel)]="newTodo" class="form-control"  placeholder="Enter a new To-Do item (4-200 characters)">
+            <button class="btn btn-primary mt-2" style="background-color: #007bff; color: white;" (click)="addTodo()">Add To-Do</button>
+          </div>
+          <ul class="list-group mt-3">
+            <li class="list-group-item" *ngFor="let todo of todos; let i = index">
+              {{ todo.text }}
+              <button class="btn btn-danger btn-sm float-right" style="background-color: #dc3545; color: white;" (click)="removeTodo(i)">Delete</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+  
